@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles/index.css">
+  <script src="./dist/app.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <button id="btn-media-turma">Calcular Média da Turma</button>
+    <h2 id="h2-media-turma">Média de alunos da turma =</h2>
+  </header>
+  <div class="app-container">
+    <div class="left-container">
+      <div class="form-container">
+        <div class="numero-turma">
+          <label for="input-turma">Número da Turma</label> <input id="input-turma" type="text">
+        </div>
+        <form id="form" action="">
+          <input id="input-name" type="text" placeholder="Digite o Nome do Aluno">
+          <input id="input-P1" type="text" placeholder="Nota-P1">
+          <input id="input-P2" type="text" placeholder="Nota-P2">
+          <button id="btn-incluir" type="submit">Incluir Aluno</button>
+        </form>
+        <h3 id="result01"></h3>
+        <h3 id="result02"></h3>
+      </div>
+    </div>
+    <div id="list-container" class="list-container">
+      <div class="header-table">
+        <h2>Lista de alunos da turma número:</h2>
+        <h2 id="h2-num-turma"></h2>
+      </div>
+      <div class="row-table">
+        <div> Nome do Aluno </div>
+        <div>P1</div>
+        <div>P2</div>
+        <div>Media</div>
+      </div>
+    </div>
+  </div>
+  <footer>Desafio de typescript</footer>
+</body>
+
+</html>

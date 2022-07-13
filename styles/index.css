@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  max-width: 980px;
+  margin: 0 auto;
+}
+button {
+  padding: 6px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px;
+  border-radius: 5px;
+  background: darkblue;
+  color: whitesmoke;
+  opacity: .8;
+  transition: opacity 500ms;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+input {
+  margin: 10px 0px;
+  text-align: center;
+  padding: 6px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  height: 70px;
+  box-shadow: 0px 5px 5px 0px gray;
+}
+.app-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 80vh;
+}
+.left-container {
+  width: 50%;
+}
+.form-container {
+  width: 350px;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.numero-turma {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.numero-turma :nth-child(2) {
+  width: 50px;
+  margin-left: 10px;
+}
+
+.list-container {
+  padding: 20px 0;
+  width: 50%;
+  text-align: center;
+}
+
+.header-table {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.header-table :nth-child(1) {
+  margin-right: 10px;
+  font-size: 20px;
+  color: darkblue;
+}
+
+.row-table {
+  display: flex;
+  align-items: center;
+}
+
+.row-table :nth-child(1) {
+  text-align: start;
+  width: 55%;
+  padding: 8px;
+  border: 1px solid black;
+}
+
+.row-table :nth-child(2) {
+  text-align: start;
+  width: 15%;
+  padding: 8px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.row-table :nth-child(3) {
+  text-align: start;
+  width: 15%;
+  padding: 8px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.row-table :nth-child(4) {
+  text-align: start;
+  width: 15%;
+  padding: 8px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+footer {
+  background: rgb(165, 159, 159);
+  display: block;
+  position: relative;
+  margin-top: auto;
+  margin-bottom: 0;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+
+
+
+
